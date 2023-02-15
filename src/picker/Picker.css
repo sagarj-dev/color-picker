@@ -1,0 +1,46 @@
+.ColorPickerContainer {
+  display: flex;
+  align-items: center;
+}
+
+#ColorPickerInput {
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+#ColorPickerInput:focus {
+  border: 1px solid black;
+}
+
+input[type="color"] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+*:focus {
+  border-radius: 0;
+  outline: none;
+}
+
+::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+::-webkit-color-swatch {
+  border: 0;
+  border-radius: 0;
+}
+
+::-moz-color-swatch,
+::-moz-focus-inner {
+  border: 0;
+}
+
+::-moz-focus-inner {
+  padding: 0;
+}
